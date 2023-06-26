@@ -3,7 +3,7 @@
 pipeline {
 
     agent {
-        docker {
+        any {
             label 'docker'
             image 'python:3'
     }   }
