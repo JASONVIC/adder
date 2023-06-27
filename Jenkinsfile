@@ -5,8 +5,8 @@ pipeline {
     agent {
         dockerfile {
             label 'docker'
-            image 'python:3'
-    }   }
+            }  
+	 }
 
     stages {
         stage('Compile') {
