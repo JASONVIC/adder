@@ -29,9 +29,9 @@ pipeline {
                             }
 	stage('Hello GitHub') {
             steps {
-                   echo "Hello GitHub!"
+                   echo "Hello GitHub!1"
                   }   
-            }		    
+           }		    
     } 
 
 
